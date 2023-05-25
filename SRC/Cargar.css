@@ -1,0 +1,21 @@
+form {
+    display: grid;
+    place-items: center;
+}
+
+.label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+input {
+    border: solid 2px #8992b4;
+    border-radius: 5px;
+}
+
+@media (max-width: 600px) {
+    form {
+        display: list-item;
+        text-align: center;
+    }
+}
